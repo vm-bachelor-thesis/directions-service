@@ -1,0 +1,26 @@
+{
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "authLevel": "function",
+      "methods": ["post"]
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "responseDocument",
+      "databaseName": "db1",
+      "collectionName": "directionsResponses",
+      "createIfNotExists": true,
+      "connectionStringSetting": "COSMOSDB_CONNECTION_STRING"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ],
+  "scriptFile": "../dist/uploadTextResponse/index.js"
+}
