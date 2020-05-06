@@ -1,5 +1,5 @@
 {
-  "name": "describe-this-place-service",
+  "name": "directions-service",
   "version": "0.0.1",
   "scripts": {
     "build": "tsc",
@@ -10,7 +10,7 @@
     "start": "npm-run-all --parallel start:host watch",
     "test": "echo \"No tests yet...\""
   },
-  "description": "Serverless Azure Functions for Describe This Place apps.",
+  "description": "Serverless Azure Functions for Directions apps.",
   "author": "Viktor Mörsell <morsell@kth.se>",
   "license": "MIT",
   "devDependencies": {
