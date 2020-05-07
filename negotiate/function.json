@@ -1,0 +1,22 @@
+{
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "authLevel": "function"
+    },
+    {
+      "type": "signalRConnectionInfo",
+      "direction": "in",
+      "name": "connectionInfo",
+      "hubName": "chat"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ],
+  "scriptFile": "../dist/negotiate/index.js"
+}
