@@ -14,7 +14,7 @@
       "databaseName": "db1",
       "collectionName": "directionsResponses",
       "createIfNotExists": true,
-      "connectionStringSetting": "COSMOSDB_CONNECTION_STRING"
+      "connectionStringSetting": "CosmosDBConnectionString"
     },
     {
       "type": "http",
