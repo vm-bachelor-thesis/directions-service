@@ -8,8 +8,6 @@ const httpTrigger: AzureFunction = async function (
     context.bindings.responseDocument = {
       ...req.body.response,
     };
-
-    context.done();
   } else {
     context.res = {
       status: 400,
