@@ -7,7 +7,6 @@ const httpTrigger: AzureFunction = async function (
   if (req.body && req.body.response) {
     context.bindings.responseDocument = {
       ...req.body.response,
-      type: 'text',
     };
 
     context.done();

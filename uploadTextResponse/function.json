@@ -12,7 +12,7 @@
       "direction": "out",
       "name": "responseDocument",
       "databaseName": "db1",
-      "collectionName": "directionsResponses",
+      "collectionName": "directionsTextResponses",
       "createIfNotExists": true,
       "connectionStringSetting": "CosmosDBConnectionString"
     },
